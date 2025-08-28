@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <title>Recomandările Mele</title>
+  <meta charset="UTF-8" />
+  <title>Site Afiliere Simplu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 10px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+    .produs {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .produs img, .produs video {
+      max-width: 100%;
+      border-radius: 5px;
+      display: block;
+      margin: 10px auto;
+    }
+    a.buton {
+      display: inline-block;
+      background-color: #ff9900;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+    a.buton:hover {
+      background-color: #e68a00;
+    }
+  </style>
 </head>
 <body>
-  <h1>Top produse recomandate</h1>
 
-  <h2>1. Kindle Paperwhite</h2>
-  <p>Perfect pentru citit în orice lumină.</p>
-  <a href="https://www.amazon.com/dp/B0BTZ83VHZ?tag=IDUL_TAU_AFILIAT" target="_blank">
-    Cumpără de pe Amazon
-  </a>
+  <h1>Produse recomandate</h1>
+
+  <div class="produs">
+    <h2>1. Kindle Paperwhite</h2>
+    <!-- Poza: schimbă linkul de la src cu linkul imaginii tale -->
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61eSwtTxhJL.jpg" alt="Kindle Paperwhite" />
+    <p>Perfect pentru citit oriunde.</p>
+    <a class="buton" href="https://www.amazon.com/dp/B0BTZ83VHZ?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Cumpără pe Amazon</a>
+  </div>
+
+  <div class="produs">
+    <h2>2. Căști Sony WH-1000XM4</h2>
+    <!-- Video: schimbă linkul de la src cu linkul video-ului tău -->
+    <video controls>
+      <source src="https://sample-videos.com/video123/mp4/480/asdasdas.mp4" type="video/mp4" />
+      Browserul tău nu suportă video.
+    </video>
+    <p>Sunet de calitate și anulare zgomot.</p>
+    <a class="buton" href="https://www.amazon.com/dp/B0863TXGM3?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Vezi oferta</a>
+  </div>
+
+  <div class="produs">
+    <h2>3. Laptop Dell Inspiron</h2>
+    <!-- Poza locală -->
+    <img src="https://images.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/15_3501/pdp/notebook-inspiron-15-3501-pdp-mod-01.jpg?fmt=jpg&wid=570&hei=400" alt="Laptop Dell Inspiron" />
+    <p>Performanță și fiabilitate pentru muncă și școală.</p>
+    <a class="buton" href="https://www.amazon.com/dp/B0863TXGM3?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Vezi detalii</a>
+  </div>
+
 </body>
 </html>
