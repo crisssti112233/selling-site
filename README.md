@@ -1,81 +1,106 @@
 # selling-site
 for personal usually 
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-  <meta charset="UTF-8" />
-  <title>Site Afiliere Simplu</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 20px auto;
-      padding: 10px;
-      background: #f9f9f9;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      color: #007bff;
-    }
-    .produs {
-      background: white;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .produs img, .produs video {
-      max-width: 100%;
-      border-radius: 5px;
-      display: block;
-      margin: 10px auto;
-    }
-    a.buton {
-      display: inline-block;
-      background-color: #ff9900;
-      color: white;
-      text-decoration: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      margin-top: 10px;
-      transition: background-color 0.3s;
-    }
-    a.buton:hover {
-      background-color: #e68a00;
-    }
-  </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  <h1>Produse recomandate</h1>
+		<style>
+/* ===== main.css + noscript.css inline ===== */
 
-  <div class="produs">
-    <h2>1. Kindle Paperwhite</h2>
-    <!-- Poza: schimbă linkul de la src cu linkul imaginii tale -->
-    <img src="https://images-na.ssl-images-amazon.com/images/I/61eSwtTxhJL.jpg" alt="Kindle Paperwhite" />
-    <p>Perfect pentru citit oriunde.</p>
-    <a class="buton" href="https://www.amazon.com/dp/B0BTZ83VHZ?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Cumpără pe Amazon</a>
-  </div>
+/* aici vine tot conținutul CSS */
+... (foarte mult cod CSS inline de la main.css și noscript.css) ...
 
-  <div class="produs">
-    <h2>2. Căști Sony WH-1000XM4</h2>
-    <!-- Video: schimbă linkul de la src cu linkul video-ului tău -->
-    <video controls>
-      <source src="https://sample-videos.com/video123/mp4/480/asdasdas.mp4" type="video/mp4" />
-      Browserul tău nu suportă video.
-    </video>
-    <p>Sunet de calitate și anulare zgomot.</p>
-    <a class="buton" href="https://www.amazon.com/dp/B0863TXGM3?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Vezi oferta</a>
-  </div>
+		</style>
+	</head>
+	<body class="is-preload">
 
-  <div class="produs">
-    <h2>3. Laptop Dell Inspiron</h2>
-    <!-- Poza locală -->
-    <img src="https://images.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/15_3501/pdp/notebook-inspiron-15-3501-pdp-mod-01.jpg?fmt=jpg&wid=570&hei=400" alt="Laptop Dell Inspiron" />
-    <p>Performanță și fiabilitate pentru muncă și școală.</p>
-    <a class="buton" href="https://www.amazon.com/dp/B0863TXGM3?tag=AFILIATUL_TAU" target="_blank" rel="noopener">Vezi detalii</a>
-  </div>
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-</body>
+			<!-- Header -->
+			<header id="header">
+				<div class="logo">
+					<span class="icon fa-gem"></span>
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Dimension</h1>
+						<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<div id="main">
+				<!-- Sections (Intro, Work, About, Contact) -->
+				<section id="intro">
+					<h2 class="major">Intro</h2>
+					<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+					<p>This is Dimension, another free, fully responsive site template ...</p>
+				</section>
+				<section id="work">
+					<h2 class="major">Work</h2>
+					<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+					<p>Lorem ipsum dolor sit amet ...</p>
+				</section>
+				<section id="about">
+					<h2 class="major">About</h2>
+					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+					<p>Lorem ipsum dolor sit amet ...</p>
+				</section>
+				<section id="contact">
+					<h2 class="major">Contact</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			</footer>
+		</div>
+
+		<!-- Background -->
+		<div id="bg"></div>
+
+		<script>
+/* ===== jquery.min.js + browser.min.js + breakpoints.min.js + util.js + main.js inline ===== */
+
+/* aici vine tot codul JS inline */
+... (foarte mult cod JavaScript inline) ...
+
+		</script>
+	</body>
 </html>
+
